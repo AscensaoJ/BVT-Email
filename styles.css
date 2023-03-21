@@ -1,0 +1,352 @@
+#main {
+    height: 100vh !important;
+    width: 100%;
+}
+
+nav {
+    background-color: var(--bs-secondary-bg);
+}
+
+button {
+    color: var(--bs-dark-text) !important;
+}
+
+
+@media (max-width: 575px) {
+    
+    #nav-phone {
+        max-height: 5em;
+        width: 100vw;
+        padding-left: 15px !important;
+        padding-right: 15px !important;
+        vertical-align: center;
+    }
+
+    .navEnvelope {
+        height: 37.5px;
+        width: 37.5px;
+        padding: 5px;
+        margin-left: 11.6px;
+    }
+
+    nav button {
+        padding: 5px !important;
+    }
+    
+    .brand {
+        /*position: absolute;*/
+        justify-self: center;
+    }
+
+    .offcanvas {
+        width: 50vw !important;
+        min-width: 120px !important;
+    }
+
+    .envelope {
+        margin-bottom: 1px;
+    }
+
+    .title {
+        padding-bottom: 2%;
+    }
+
+    .sender {
+        width: 20% !important;
+        white-space: nowrap !important;
+        overflow: hidden !important;
+        text-overflow: ellipsis !important;
+        margin: 0;
+    }
+
+    .subject {
+        width: 25% !important;
+        margin: 0;
+        padding-right: 5px !important;
+    }
+
+    table {
+        display: block;
+        table-layout: fixed !important;
+        margin-right: 5px;
+        width: 100%;
+        border-collapse: collapse;
+        overflow-wrap: unset;
+        overflow-x: hidden;
+        white-space: nowrap !important;
+        text-overflow: ellipsis !important;
+    }
+
+    th, td {
+        display: inline-block;
+        border-spacing: 0;
+        overflow-x: hidden;
+        overflow-wrap: break-word !important;
+        padding: 5px;
+        white-space: nowrap !important;
+        overflow: hidden !important;
+        text-overflow: ellipsis !important;
+    }
+}
+
+@media (min-width: 576px) and (max-width: 991px) {
+
+    #nav-phone {
+        height: 12.5vh !important;
+        padding-left: 15px !important;
+        vertical-align: center;
+    }
+
+    #boxContainer {
+        height: 31.25vh !important;
+    }
+
+    #boxContent {
+        white-space: nowrap !important;
+        overflow: hidden;
+        text-overflow: ellipsis !important;
+        overflow-y: auto;
+        height: 100%;
+        padding: 20px;
+    }
+
+    #emailContainer {
+        height: 56.25vh !important;
+        padding: 20px;
+    }
+}
+
+@media (min-width: 992px) {
+
+    body {
+        overflow-x: hidden;
+    }
+
+    .row {
+        height: 100%;
+    }
+
+    /*Nav Menu*/
+
+    nav {
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .title {
+        text-align: center;
+        height: 8.333333333%;
+        margin-top: 10px;
+    }
+
+    .btn-group-vertical {
+        margin: auto;
+        text-align: center;
+        height: auto;
+        width: 66.66%;
+    }
+
+    #compBtnCont {
+        width: 66.66%;
+        text-align: center;
+    }
+
+    .btn-group-vertical>button, #compBtn {
+        width: 90%;
+        border-radius: 10px !important;
+        border: 0;
+        margin-top: 5px;
+        margin-bottom: 5px;
+        background-color: var(--bs-tertiary-bg);
+    }
+
+    .theme {
+        height: 40px;
+        margin: 10px 0 10px 0;
+    }
+
+    /*Box*/
+    #boxContainer {
+        padding: 20px;
+        height: 100vh;
+    }
+
+    #boxContent {
+        background-color: var(--bs-tertiary-bg);
+        height: 100% !important;
+        width: 100%;
+        padding: 10px;
+        overflow-y: auto;
+        overflow-x: hidden;
+    }
+
+    table {
+        display: block;
+        table-layout: fixed !important;
+        margin-right: 5px;
+        width: 25vw;
+        border-collapse: collapse;
+        overflow-wrap: unset;
+        overflow-x: hidden;
+        white-space: nowrap !important;
+    }
+    
+    td {
+        line-height: 1em;
+    }
+
+    .selectBox {
+        width: 34px;
+        margin: 0;
+    }
+
+    .sender {
+        width: 20% !important;
+        white-space: nowrap !important;
+        overflow: hidden !important;
+        text-overflow: ellipsis !important;
+        margin: 0;
+    }
+
+    .subject {
+        width: 37% !important;
+        margin: 0;
+    }
+
+    th, td {
+        display: inline-block;
+        border-spacing: 0;
+        overflow-x: hidden;
+        overflow-wrap: break-word !important;
+        padding: 5px;
+        white-space: nowrap !important;
+        overflow: hidden !important;
+        text-overflow: ellipsis !important;
+    }
+
+    /*Email*/
+
+    #emailContainer {
+        padding: 20px !important;
+        height: 100% !important;
+        /*overflow-y:auto;*/
+        white-space: nowrap !important;
+        overflow: hidden !important;
+    }
+
+    #emailWrap {
+        height: 100% !important;
+        white-space: nowrap !important;
+        overflow: hidden !important;
+    }
+
+    #emailHead {
+        display: flex;
+        background-color: var(--bs-tertiary-bg);
+        width: 100%;
+        height: 30px !important;
+        margin-bottom: 20px;
+        padding: 0 15px 0 15px;
+        white-space: unset;
+        align-items: center;
+    }
+
+
+    #emailSender {
+        width: 30%;
+        padding-right: 15px;
+    }
+
+    #emailSubject {
+        width: 30%;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    #emailMenu {
+        width: 40%;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    #emailMenu button {
+        margin-right: 15px;
+        background-color: transparent;
+        border: none;
+        color: var(--bs-body-color) !important;
+    }
+
+    #emailMenu button:hover {
+        color: var(--bs-primary-text) !important;
+    }
+
+    #emailContent {
+        background-color: var(--bs-tertiary-bg);
+        height: calc(100vh - 90px);
+        width: 100%;
+        padding: 15px;
+        overflow-y: auto !important;
+        overflow-x: hidden !important;
+        white-space: normal !important;
+    }
+
+    /*compose*/
+    #composeCont {
+        width: 50%;
+        height: 60%;
+        min-height: 300px;
+        background-color: var(--bs-body-bg);
+        padding: 20px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    #composeCont div {
+        display: flex;
+        width: 100%;
+    }
+
+    #compose {
+        height: 100%;
+    }
+
+    #composeHeader {
+        white-space: nowrap;
+        margin-bottom: 10px;
+    }
+
+    #composeHeader input {
+        flex: 1 1 auto;
+        margin-left: 15px;
+        margin-right: 15px;
+        height: 1.5em;
+        min-width: 10%;
+    }
+
+    #composeCont input, textarea, #composeMenu button {
+        background-color: var(--bs-secondary-bg);
+        border-color: var(--bs-body-color) !important;
+        color: var(--bs-body-color) !important;
+    }
+
+    #msgCont {
+        height: calc(60vh - 155.2px);
+        min-height: 144.8px;
+    }
+
+    #emailMsg {
+        resize: none;
+        flex-grow: 1;
+        height: 100%;
+    }
+
+    #composeMenu {
+        margin-top: 20px;
+    }
+
+    #composeMenu button {
+        margin-right: 20px;
+        border-radius: 10px;
+    }
+
+}

@@ -1,0 +1,35 @@
+20230217
+    Started work on wire frames in inkscape.
+    
+20230223 - 20230301
+    Played with bootstrap to familiarize myself. Found ways to get it to do what I wanted. Found I needed more CSS than what bootstrap could provide.
+    
+20230303
+    Worked on wire frames. Staring with large breakpoint.   Decided to try using FreeCAD for wire framing.
+    Found FreeCAD much easier to design with, and saved output as SVG.
+
+20230304
+    Worked on wire frames in FreeCAD.
+
+20230306
+    Finished wire frames in FreeCAD, added text in inkscape, and added whitespace around in Paint.net.
+    Started on large breakpoint using the the file I played around with earlier.
+    Created basic layout of different wire frames.
+    Tried to use color change in bootstrap documentation, failed to work.
+    Found usable js on stack overflow.
+    Found method to use external SVG icons using bootstrap icons.
+
+20230310
+    Finally got check all working. Decided to use JS to change box and email content. Move JS to external file.
+
+20230311
+    Got JS to populate box with emails.
+
+20230312
+    Decided to focus on finishing all templates.
+
+20230313
+    Finishing changes to phone breakpoint.
+
+    @0230316-19
+        Worked on getting scrolling to work. Added compose, reply, and delete button.
