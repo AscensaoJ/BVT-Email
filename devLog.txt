@@ -31,5 +31,8 @@
 20230313
     Finishing changes to phone breakpoint.
 
-    @0230316-19
-        Worked on getting scrolling to work. Added compose, reply, and delete button.
+20230316-19
+    Worked on getting scrolling to work. Added compose, reply, and delete button.
+
+20230322
+    Finished everything I could in the time provided.

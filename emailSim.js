@@ -167,8 +167,8 @@ function checkToggle() {
     document.getElementsByClassName('title').innerHTML = "Hello";
 }
 
-//from skelly on codeply https://www.codeply.com/p/BmyKLq8RTV
-document.getElementById('theme').addEventListener('click',()=>{
+//Modified from skelly on codeply https://www.codeply.com/p/BmyKLq8RTV
+function toggleTheme() {
     if (document.documentElement.getAttribute('data-bs-theme') == 'dark') {
         document.documentElement.setAttribute('data-bs-theme','light');
         document.getElementById('themeIcon').classList.remove("bi-sun-fill");
@@ -179,4 +179,4 @@ document.getElementById('theme').addEventListener('click',()=>{
         document.getElementById('themeIcon').classList.remove("bi-moon-fill");
         document.getElementById('themeIcon').classList.add("bi-sun-fill");
     }
-})
+}
